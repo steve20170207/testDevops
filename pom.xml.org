@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>myDevOps2</groupId>
   <artifactId>myDevOps2</artifactId>
-  <version>release-version-1.02-Junit</version>
+  <version>release-version-1.02</version>
   <packaging>war</packaging>
   <name>myDevOps2-maven</name>
   <build>
@@ -29,7 +29,8 @@
   	<dependency>
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
-  		<version>4.8.1</version>
+  		<version>4.11</version>
+  		<scope>test</scope>
   	</dependency>
   </dependencies>
 </project>
